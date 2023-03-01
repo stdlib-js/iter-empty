@@ -140,7 +140,7 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/iter/constant`][@stdlib/iter/constant]</span><span class="delimiter">: </span><span class="description">create an iterator which always returns the same value.</span>
+-   <span class="package-name">[`@stdlib/iter-constant`][@stdlib/iter/constant]</span><span class="delimiter">: </span><span class="description">create an iterator which always returns the same value.</span>
 
 </section>
 
