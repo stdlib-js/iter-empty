@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@deno/mod.js';
+import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@v0.1.0-deno/mod.js';
 ```
 
 #### iterEmpty()
@@ -97,7 +97,7 @@ The returned iterator protocol-compliant object has the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@deno/mod.js';
+import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@v0.1.0-deno/mod.js';
 
 // Create an iterator:
 var it = iterEmpty();
