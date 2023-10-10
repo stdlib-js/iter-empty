@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-empty/tags). For example,
+
+```javascript
 import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@v0.1.1-esm/index.mjs';
 ```
 
@@ -102,7 +107,7 @@ The returned iterator protocol-compliant object has the following properties:
 <body>
 <script type="module">
 
-import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@v0.1.1-esm/index.mjs';
+import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@esm/index.mjs';
 
 // Create an iterator:
 var it = iterEmpty();
