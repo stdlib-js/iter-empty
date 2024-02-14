@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-empty/tags). For example,
+
+```javascript
 import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@v0.2.0-deno/mod.js';
 ```
 
@@ -97,7 +102,7 @@ The returned iterator protocol-compliant object has the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@v0.2.0-deno/mod.js';
+import iterEmpty from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-empty@deno/mod.js';
 
 // Create an iterator:
 var it = iterEmpty();
