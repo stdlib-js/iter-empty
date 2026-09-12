@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,27 +16,33 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Iterator as Iter, IterableIterator } from '@stdlib/types/iter';
+
+// Define a union type representing both iterable and non-iterable iterators:
+type Iterator = Iter | IterableIterator;
 
 /**
-* Create an empty iterator.
+* Returns an empty iterator.
 *
-* @module @stdlib/iter-empty
+* ## Notes
+*
+* -   If an environment supports `Symbol.iterator`, the returned iterator is iterable.
+*
+* @returns iterator
 *
 * @example
-* var iterEmpty = require( '@stdlib/iter-empty' );
-*
 * var iter = iterEmpty();
 *
 * var bool = iter.next().done;
 * // returns true
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function iterEmpty(): Iterator;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = iterEmpty;
